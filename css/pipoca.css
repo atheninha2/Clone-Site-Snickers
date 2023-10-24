@@ -1,0 +1,132 @@
+.pipoca-img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+  object-fit: cover;
+}
+
+.pipoca-container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pipoca-text {
+  top: 24%;
+  left: 18%;
+  color: #ffff;
+  padding: 10px;
+  position: absolute;
+  font-size: 2.3rem;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+.pipoca-text a {
+  background: #ffff;
+  padding: 15px 40px 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #210082;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.pipoca-text a:hover {
+  background: #210082;
+  transition: 0.8s;
+  color: #ffff;
+}
+
+.pipoca-product {
+  position: absolute;
+  padding: 190px 30px 190px 30px;
+  background-color: #410c00;
+  border-radius: 30px;
+  text-align: center;
+  top: 11%;
+  right: 15%;
+}
+
+.pipoca-product h3 {
+  color: #ffff;
+}
+
+.pipoca-product a {
+  background: #210082;
+  padding: 10px 25px 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1rem;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.pipoca-product:hover {
+  background: #210082;
+  transition: 0.7s;
+}
+
+.pipoca-product:hover img {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.pipoca-product:hover a {
+  background: #ffffff;
+  color: #210082;
+  transition: 0.7s;
+}
+
+.feito {
+  position: absolute;
+  top: 2%;
+  right: 37%;
+}
+
+.g {
+  position: absolute;
+  left: 10%;
+  bottom: 16%;
+}
+
+@media (max-width: 1000px) {
+  .pipoca-container {
+    flex-direction: column;
+  }
+  .pipoca-text {
+  }
+}
+
+@media (max-width: 1600px) {
+  .pipoca-text {
+    top: 24%;
+    left: 5%;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 1400px) {
+  .pipoca-text {
+    top: 5%;
+    left: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pipoca-product {
+    bottom: 5%;
+    left: 20%;
+    padding: 100px 30px 100px 30px;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}

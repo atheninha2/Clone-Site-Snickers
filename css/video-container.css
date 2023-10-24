@@ -1,0 +1,45 @@
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 67vh;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: white;
+  padding: 10px;
+  left: 500px;
+}
+
+.text-overlay a {
+  background: #210082;
+  padding: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.text-overlay h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.text-overlay p {
+  font-weight: bold;
+}
+
+.text-overlay a:hover {
+  background: #ffffff;
+  color: #210082;
+  transition: 0.8s;
+}

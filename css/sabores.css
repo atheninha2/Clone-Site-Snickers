@@ -1,0 +1,64 @@
+.sabores-container {
+  background: #ffff;
+  display: grid;
+  padding: 0px 40px 60px 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sabores-title {
+  color: #410c00;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.sabores-link {
+  background: #210082;
+  padding: 15px 40px 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.sabores-img {
+  max-width: 100%;
+}
+
+.sabores-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.barra {
+  content: "";
+  padding: 1px 97px;
+  background: red;
+  margin-left: 45%;
+}
+
+.sabores-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sabores-text {
+  color: #410c00;
+  font-weight: bold;
+  font-size: 20px;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 25px;
+}
+
+.line {
+  display: block;
+}
+
+.sabores-link:hover {
+  background: #ffffff;
+  color: #210082;
+  transition: 0.8s;
+}
